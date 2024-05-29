@@ -8,21 +8,33 @@ header {
     flex-direction: column;
     background-image: url('/assets/images/banner-bk.jpg');
     color: white;
-    padding: 50px 120px 50px 120px;
+    padding: 60px 120px 60px 120px;
 }
 header h4{
     font-weight: lighter;
     font-size: 1.1em;
 }
 header p{
-    margin-top: 20px;
-    width: 60%;
-    font-size: large;
+    margin-top: 50px;
+    width: 65%;
+    font-size: larger;
+    font-weight: lighter;
 }
 
 header h1{
-    margin-top: 10px;
+    line-height: 1;
+    margin-top: 50px;
     font-size: 4.5em;
+}
+
+.button{
+    width: 150px;
+    margin-top: 40px;
+    border-radius: 30px;
+    padding: 12px 20px 12px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 .alinear1 {
@@ -38,14 +50,80 @@ header h1{
     width: 80px;
 }
 
-.button1{
-    width: 150px;
-    margin-top: 30px;
-    border-radius: 20px;
+#button1{
     background-color: #00ffae;
     color: #192440;
-    padding: 10px 20px 10px 20px;
-    border: none;
-    font-weight: bold;
-    font-size: 1em;
+}
+
+/* info*/
+
+.info{
+    background: linear-gradient(168deg, white 55%, #00ffae 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 100px 30px 100px;
+    color: #282a2b;
+}
+
+.info h2{
+    font-size: 2.7em;
+}
+
+.smart-protect-all{
+    display: flex;
+    flex-direction: row;
+}
+.smart-protect{
+    margin: 20px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.smart-protect h3{
+    font-size: 1.5em;
+
+}
+
+#button2{
+    background-color: #192440;
+    color: white;
+}
+
+/* Features */
+
+.features{
+    margin: 150px 50px 0px 0px;
+    display: flex;
+
+}
+
+.features-info{
+    margin: 0px 40px 0px 40px;
+}
+.features-info p{
+    margin-top: 20px;
+}
+
+aside img{
+    width: 500px;
+}
+
+/* Pricing */
+
+.pricing {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+.box-pricing{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
 }
