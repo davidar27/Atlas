@@ -89,11 +89,11 @@ header h1 {
 
 }
 
-.smart-protect-all p{
+.smart-protect-all p {
     font-weight: normal;
 }
 
-.features p{
+.features p {
     font-weight: normal;
 }
 
@@ -215,7 +215,7 @@ p {
 
 /* Contact */
 
-.contac{
+.contac {
     background-image: url('/assets/images/contact-bk.jpg');
     background-position: center;
     background-size: cover;
@@ -225,28 +225,28 @@ p {
     padding: 100px 0px 100px 0px;
 }
 
-.info-contact{
+.info-contact {
     width: 500px;
 }
 
-.contac div h2{
+.contac div h2 {
     font-size: 2.5em;
 }
 
-.contac p{
+.contac p {
     margin: 20px 0px 20px 0px;
     font-weight: normal;
 }
 
 
-.contac li{
+.contac li {
     list-style: none;
     margin-top: 10px;
 }
 
 
 form {
-    width: auto; 
+    width: auto;
     color: #00ffae;
 }
 
@@ -255,11 +255,13 @@ form {
     display: flex;
     justify-content: space-between;
 }
-label{
+
+label {
     margin-bottom: 10px;
 }
+
 .input_wrapper {
-    width: calc(50% - 10px); 
+    width: calc(50% - 10px);
 }
 
 form input[type="text"],
@@ -296,12 +298,12 @@ form input[type="submit"]:focus {
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
-.menssage{
+.menssage {
     display: flex;
     flex-direction: column;
 }
 
-textarea{
+textarea {
     background: none;
     border-color: #00ffae;
     border-radius: 5px;
@@ -311,7 +313,7 @@ textarea{
 
 /* Footer */
 
-footer{
+footer {
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -322,15 +324,72 @@ footer{
     background-color: #192440;
 }
 
-footer p{
+footer p {
     font-weight: normal;
 }
 
 
-footer div img{
+footer div img {
     width: 50px;
 }
 
 
 
 
+@media (max-width: 921px) {
+
+    .info {
+        background: linear-gradient(168deg, white 60%, #00ffae 0);
+    }
+
+
+    /* Features */
+
+    .features {
+        margin: 150px 50px 50px 0px;
+
+
+    }
+
+    .features-info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .features-info h2 {
+        font-size: 2.5em;
+    }
+
+    .features-info p {
+        margin-top: 10px;
+    }
+
+    .img-feature {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .img-feature img {
+        width: 300px;
+    }
+
+    /* Contact */
+
+    .contac {
+        padding: 100px 50px 100px 50px;
+    }
+
+    .info-contact {
+        width: 400px;
+        margin-right: 20px;
+    }
+
+    .contac div h2 {
+        font-size: 2.3em;
+    }
+
+
+
+}
