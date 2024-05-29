@@ -10,24 +10,26 @@ header {
     color: white;
     padding: 60px 120px 60px 120px;
 }
-header h4{
+
+header h4 {
     font-weight: lighter;
     font-size: 1.1em;
 }
-header p{
+
+header p {
     margin-top: 50px;
     width: 65%;
     font-size: larger;
     font-weight: lighter;
 }
 
-header h1{
+header h1 {
     line-height: 1;
     margin-top: 50px;
     font-size: 4.5em;
 }
 
-.button{
+.button {
     width: 150px;
     margin-top: 40px;
     border-radius: 30px;
@@ -42,88 +44,274 @@ header h1{
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    
+
 
 }
 
-.logo{
+.logo {
     width: 80px;
 }
 
-#button1{
+#button1 {
     background-color: #00ffae;
     color: #192440;
 }
 
 /* info*/
 
-.info{
+.info {
     background: linear-gradient(168deg, white 55%, #00ffae 0);
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 100px 100px 30px 100px;
+    padding: 30px 100px 30px 80px;
     color: #282a2b;
 }
 
-.info h2{
+
+
+.info h2 {
     font-size: 2.7em;
 }
 
-.smart-protect-all{
+.smart-protect-all {
     display: flex;
     flex-direction: row;
 }
-.smart-protect{
+
+.smart-protect {
     margin: 20px 20px 0px 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+
 }
 
-.smart-protect h3{
+.smart-protect h3 {
     font-size: 1.5em;
 
 }
 
-#button2{
+#button2 {
     background-color: #192440;
     color: white;
 }
 
 /* Features */
 
-.features{
-    margin: 150px 50px 0px 0px;
+.features {
+    margin: 150px 50px 50px 0px;
     display: flex;
 
 }
 
-.features-info{
+.features-info {
     margin: 0px 40px 0px 40px;
 }
-.features-info p{
+
+.features-info p {
     margin-top: 20px;
 }
 
-aside img{
+aside img {
     width: 500px;
 }
 
 /* Pricing */
+.title-pricing h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    color: #282a2b;
+    margin-top: 80px;
+}
+
 
 .pricing {
+    color: #282a2b;
+}
+
+.pricing h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.box-pricing {
     display: flex;
+    justify-content: center;
+
+}
+
+.box-pricing span {
+    font-size: 5em;
+
+}
+
+.box-pricing span,
+p {
+    font-weight: bold;
+}
+
+.box-pricing div {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    align-content: space-around;
+    justify-content: center;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.box-pricing div li {
+    list-style: none;
+    margin: 10px 0px 10px 0px;
+}
+
+
+.box-2 {
+    background-color: #192440;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+.button-pricing {
+    width: 120px;
+    margin-top: 40px;
+    border-radius: 30px;
+    padding: 12px 20px 12px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+    border: 2px solid #192440;
+    color: #192440;
+}
+
+
+/* Clients */
+
+.clients {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #edeff0;
+    height: 200px;
+}
+
+
+
+/* Contact */
+
+.contac{
+    background-image: url('/assets/images/contact-bk.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0px 100px 0px;
+}
+
+.info-contact{
+    width: 500px;
+}
+
+.contac div h2{
+    font-size: 2.5em;
+}
+
+.contac p{
+    margin: 20px 0px 20px 0px;
+    font-weight: normal;
+}
+
+
+.contac li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+
+form {
+    width: auto; 
+    color: #00ffae;
+}
+
+.input_group {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    margin-bottom: 10px;
+}
+.input_wrapper {
+    width: calc(50% - 10px); 
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: 1px solid #00ffae;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    background-color: #00ffae;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="submit"]:hover {
+    background-color: #01c989;
+    transform: translateY(-2px);
+}
+
+form input[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.menssage{
+    display: flex;
     flex-direction: column;
 }
 
-.box-pricing{
-    flex-direction: row;
+textarea{
+    background: none;
+    border-color: #00ffae;
+    border-radius: 5px;
+}
+
+
+
+/* Footer */
+
+footer{
+    height: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #192440;
+}
+
+footer p{
+    font-weight: normal;
 }
