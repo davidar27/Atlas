@@ -373,14 +373,16 @@ footer div img {
     }
 
     /* Contact */
-    .contac {
-        padding: 100px 50px;
-    }
 
-    /* .info-contact {
-        width: 400px;
-        margin-right: 20px;
-    } */
+    .info-contact {
+        width: 30%;
+        
+    }
+    .contac {
+        padding: 100px 25px;
+    }
+    
+
 
     .contac div h2 {
         font-size: 2.3em;
