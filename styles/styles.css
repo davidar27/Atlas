@@ -229,7 +229,7 @@ p {
 }
 
 .info-contact {
-    width: 500px;
+    width: 30%;
 }
 
 .contac div h2 {
@@ -376,10 +376,10 @@ footer div img {
         padding: 100px 50px;
     }
 
-    .info-contact {
+    /* .info-contact {
         width: 400px;
         margin-right: 20px;
-    }
+    } */
 
     .contac div h2 {
         font-size: 2.3em;
@@ -567,7 +567,7 @@ footer div img {
     }
 
     .info-contact {
-        width: 400px;
+        width: 100%;
     }
 
     .contac div h2 {
@@ -683,10 +683,6 @@ footer div img {
         font-size: 2em;
     }
 
-
-    .info-contact {
-        width: 300px;
-    }
 
     /* Pricing */
     .title-pricing h2 {
